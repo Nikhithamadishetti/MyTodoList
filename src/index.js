@@ -1,11 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router } from "react-router-dom"
+import ReactDOM from 'react-dom';
 import App from './App';
 
 
-<Router basename={process.env.PUBLIC_URL}>
-  <App />
-</Router>
-
-
+ReactDOM.render(<App />,document.getElementById('root'));
 
