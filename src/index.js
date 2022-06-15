@@ -1,9 +1,11 @@
 import React from 'react';
-import { HashRouter } from "react-router-dom"
+import { BrowserRouter as Router } from "react-router-dom"
 import App from './App';
 
-<HashRouter>
+
+<Router basename={process.env.PUBLIC_URL}>
   <App />
-</HashRouter>
+</Router>
+
 
 
